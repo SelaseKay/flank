@@ -3,7 +3,7 @@ name: "[Docs] Publish docs site (via MkDocs)"
 on:
   workflow_dispatch:
   push:
-    branches: [master]
+    branches: [fix-md-formatting]
     paths: ['docs/**']
 
 permissions:  # added using https://github.com/step-security/secure-workflows
